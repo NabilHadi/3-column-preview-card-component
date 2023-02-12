@@ -151,9 +151,13 @@ pre {
 /* Styling */
 
 body {
+  min-height: 100vh;
   padding: 1.5rem;
   background-color: var(--clr-neutral-light-gray);
   font-family: var(--ff-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .three-column {
@@ -191,4 +195,16 @@ body {
   border-radius: 25px;
   /* 15px */
   font-size: 0.9375rem;
+}
+
+@media (min-width: 760px) {
+  .three-column {
+    display: flex;
+    max-width: 930px;
+  }
+
+  .car__desc {
+    margin-bottom: 5.3125rem;
+    line-height: 1.75;
+  }
 }
