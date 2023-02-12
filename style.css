@@ -201,6 +201,7 @@ body {
   .three-column {
     display: flex;
     max-width: 930px;
+    margin-top: 3rem;
   }
 
   .car__desc {
