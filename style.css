@@ -205,6 +205,13 @@ body {
   border-radius: 25px;
   /* 15px */
   font-size: 0.9375rem;
+  cursor: pointer;
+}
+
+.more_btn:hover {
+  background-color: transparent;
+  border: 2px solid var(--clr-neutral-white);
+  color: var(--clr-neutral-light-gray);
 }
 
 @media (min-width: 760px) {
@@ -212,6 +219,7 @@ body {
     display: flex;
     max-width: 930px;
     margin-top: 3rem;
+    max-height: 500px;
   }
 
   .car__desc {
